@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #1F2937;
+    padding: 0 250px;
+    padding-bottom: 32px;
+}
+
+.FlexHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FlexHeader > ul{
+   gap: 18px;
+   display: flex;
+   text-decoration: none;
+   list-style: none; 
+}
+
+.HeaderLogo{
+    font-size: 24px;
+    color:#f9FAF8;
+}
+
+.HeroContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    gap: 30px;
+}
+
+.HeroContainer > img{
+    width: 500px;
+    height: 300px;
+}
+
+.HeroContainer > div{
+    flex-grow: 1;
+}
+
+.HeroContainer .MainText{
+    font-size: 48px;;
+    font-weight: bolder;
+    color: #f9FAF8;
+}
+
+.HeroContainer .SecondaryText,
+.HeaderLinks{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.SignUpButton{
+    background-color: #3882F6;
+    color: #f9FAF8;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.ContentContainer{
+    margin: 30px 0 200px 0;
+}
+
+.InformationContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.InformationContainer > li{
+    display: flex;
+    flex-direction: column;
+}
+
+.InformationHeader{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 350px;
+}
+
+.QuoteText{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+footer > .Author{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 18px 0;
+}
